@@ -6,15 +6,23 @@ A simple Python script to crack hashed passwords using a dictionary attack.
 
 ## ⚙️ Features
 
-- Supports MD5, SHA-1, SHA-256
-- Custom wordlists
-- Fast and easy to use
+- 🔑 Supports SHA-256, SHA-1, MD5
+- 📂 Accepts any custom wordlist
+- ⚙️ Command-line interface for flexible usage
+- 🧪 Sample wordlist included
+- 🔒 Ethical use only — intended for CTFs, labs, and educational environments
 
 ---
 
-## 🚀 Usage
+## 🧠 How It Works
 
-### 📦 Install Python (3.x)
+The script compares the target hash with the hashes of every word in a dictionary file. If a match is found — the original password is revealed.
+
+### 📦 Installation
+
+```bash
+git clone https://github.com/loopXvedant/Hashed-Password-Cracker.git
+cd Hashed-Password-Cracker
 
 ### 🔧 Run the script:
 
